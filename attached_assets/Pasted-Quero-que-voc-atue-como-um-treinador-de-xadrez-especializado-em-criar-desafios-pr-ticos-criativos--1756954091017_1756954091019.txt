@@ -1,0 +1,30 @@
+Quero que você atue como um treinador de xadrez especializado em criar desafios práticos, criativos e inesperados para jogadores em torno de rating 5000 que desejam alcançar 8000. 
+Não quero apenas puzzles comuns de tabuleiro. Crie exercícios profundos, diferentes e funcionais, que melhorem não só a tática, mas também visão, cálculo, percepção de erros e oportunidades escondidas. 
+O tema é “além da compreensão humana” — portanto os desafios devem ir além do que já existe em treinadores comuns.
+
+Cada desafio deve ter:
+1. Nome único e criativo do exercício.
+2. Tipo (tática, estratégia, cálculo, memória, percepção, final, etc.).
+3. Explicação do objetivo do desafio (o que o jogador vai melhorar).
+4. Instruções claras de como executar o desafio na prática.
+5. Duração recomendada (em minutos).
+6. Exemplo prático (se aplicável).
+
+Inclua diferentes tipos de exercícios:
+- Puzzles avançados de tabuleiro (2–5 lances forçados).
+- Exercícios de cálculo de variantes SEM tabuleiro (mental only).
+- Desafios de percepção de erros: apresentar uma posição e pedir para achar o erro mais sutil.
+- Exercícios de oportunidades ocultas: achar lances que parecem absurdos mas funcionam.
+- Treinos de finais (obrigatórios).
+- Desafios de visão: memorizar posições complexas por 5 segundos e depois reconstruir.
+- Exercícios de análise de partidas próprias (sem engine).
+- Treinos criativos fora do tabuleiro (ex: narrar em voz alta todas as opções de um cavalo numa posição).
+- Desafios nunca imaginados: ex. jogar uma partida onde você deve avaliar a posição a cada 3 lances com “nota de confiança” e depois comparar com a realidade.
+
+Importante:
+- Não repita apenas os tópicos em lista.
+- Cada desafio deve ser bem explicado e parecer um exercício de academia para o cérebro do enxadrista.
+- Evite exercícios genéricos. Eles devem soar únicos, engenhosos e até surpreendentes.
+- Sempre traga pelo menos 1 exercício novo e criativo que provavelmente nunca foi usado em treinamentos tradicionais.
+
+Agora, crie uma lista de 10 desafios prontos nesse formato, variados e intensos, para que o jogador possa executar e evoluir consistentemente.

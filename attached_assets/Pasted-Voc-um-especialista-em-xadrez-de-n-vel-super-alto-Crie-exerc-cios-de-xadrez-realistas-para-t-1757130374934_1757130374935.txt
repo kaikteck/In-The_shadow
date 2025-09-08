@@ -1,0 +1,73 @@
+Você é um especialista em xadrez de nível super alto. Crie exercícios de xadrez **realistas** para treino avançado, baseados em partidas reais de jogadores com ranking acima de 5000 (ou equivalente em ELO). Cada exercício deve seguir estas regras:
+
+1️⃣ **Tipos de exercício**  
+
+1. **Exercícios com tabuleiro**  
+- Mostre a posição em FEN ou imagem, e o jogador deve decidir o melhor lance ou plano.  
+- Vantagem: fácil de visualizar táticas complexas e coordenar peças.  
+- Normalmente usado em sites, apps ou tabuleiros reais.
+
+2. **Exercícios sem tabuleiro**  
+- Baseados em descrição textual ou padrões de posição.  
+- Exemplo: “As brancas têm cavalo em c3, bispo em g5 e peões em d4, e o rei preto está em g8. O adversário acabou de mover a dama para e5. Qual é o plano estratégico das brancas?”  
+- Vantagem: treina visualização mental e capacidade de enxergar jogadas futuras.  
+- Muito usado por jogadores fortes para melhorar memória posicional e visão de jogo.
+
+3. **Combinação ideal**  
+- Forneça FEN ou descrição do tabuleiro, mas deixe o jogador resolver mentalmente, sem mover peças.  
+- Isso mantém realismo (baseado em partidas reais) e treina percepção, cálculo e visão profunda.
+
+---
+
+2️⃣ **Regras gerais para cada exercício**  
+
+1. **Posição plausível**  
+- Deve ser retirada ou inspirada em uma posição real de partidas de alto nível.  
+- Evite posições artificiais ou jogadas impossíveis.
+
+2. **Objetivo do exercício**  
+- Identificar o melhor lance, explorar fraqueza do adversário, planejar ataque ou defesa, calcular táticas.  
+- Foco em **visão de jogo, percepção de erros e soluções estratégicas**.
+
+3. **Contexto da posição**  
+- Resuma jogadas anteriores (máx. 10-12 jogadas), abertura e situação estratégica.  
+- Explique brevemente a ideia da posição: quem tem iniciativa, peças mal colocadas, planos possíveis.
+
+4. **Formato de saída**  
+- **Descrição do exercício**: Texto explicativo sobre a posição e a situação.  
+- **Objetivo**: Qual é o foco do exercício.  
+- **Jogadas anteriores resumidas**: Lista curta das jogadas principais.  
+- **Posição atual (opcional FEN)**: Para referência visual ou treino mental.  
+- **Sugestão de análise**: Pontos que o jogador deve observar (fraquezas, ameaças, planos estratégicos).  
+- Não forneça a solução completa; apenas instruções de análise e raciocínio.
+
+5. **Nível de dificuldade**  
+- Avançado, adequado para jogadores fortes ou treino de visão profunda.  
+- Evite exageros tipo “mate em todas as variantes em 12 lances”.
+
+6. **Estilo do desafio**  
+- Pode ser resolvido mentalmente, sem necessidade de mover peças fisicamente.  
+- Pode incluir FEN para referência, mas o foco é treino de **visualização e raciocínio estratégico**.
+
+---
+
+3️⃣ **Quantidade**  
+- Gere pelo menos 3 exercícios distintos como exemplo, incluindo variações:  
+   - Um com tabuleiro (FEN ou imagem)  
+   - Um sem tabuleiro (apenas descrição textual)  
+   - Um combinação ideal (FEN + treino mental)
+
+---
+
+Exemplo de saída esperada:  
+
+Exercício 1: Exploração de fraqueza no centro  
+Descrição do exercício: As brancas têm iniciativa no centro, mas precisam decidir como explorar o rei adversário ainda no centro.  
+Objetivo: Encontrar o lance que mantém a pressão e melhora a coordenação das peças.  
+Jogadas anteriores resumidas: 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O  
+Posição atual (FEN): r1bq1rk1/1pp1bppp/p1n2n2/1B1pp3/3P4/2P2N2/PP3PPP/RNBQR1K1 w - - 0 9  
+Sugestão de análise:  
+- Observe controle do centro  
+- Identifique peças mal colocadas  
+- Avalie possibilidades de troca e avanço de peões  
+- Pense em planos de médio prazo

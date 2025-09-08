@@ -1,0 +1,70 @@
+OBJETIVO GERAL DO CONTEÚDO
+- Tema obrigatório de todos os exercícios: “Desenvolver percepção de padrões, reconhecimento de oportunidades simples e noções básicas de estratégia.”
+- Basear posições em partidas reais (não inventadas). Indicar fonte mínima: nome dos jogadores/ano ou evento + FEN da posição.
+
+ESTRUTURA DE PÁGINAS
+- O site possui páginas de exercícios separadas:
+  * Página FUNDAMENTOS
+  * Página CONCEITOS
+- Cada página deve receber exercícios de acordo com seu propósito específico (ver abaixo).
+- Não alterar o estilo visual atual de nenhuma página (cores, layout, componentes).
+
+REGRAS DE VOLUME POR NÍVEL
+- Para cada nível (Iniciante, Intermediário, Avançado, Mestre):
+  * Adicione a mesma quantidade de exercícios COM TABULEIRO que já existe de exercícios SEM TABULEIRO nesse nível.
+  * Distribua corretamente nas páginas:
+    - FUNDAMENTOS → adicionar apenas exercícios de fundamentos.
+    - CONCEITOS → adicionar apenas exercícios de conceitos.
+- Exemplo: se na página de Fundamentos (nível iniciante) existem 3 exercícios sem tabuleiro, adicione mais 3 com tabuleiro (estático, sem movimento).
+- Exemplo: se na página de Conceitos (nível mestre) existe 1 exercício sem tabuleiro, adicione mais 1 com tabuleiro (interativo, com movimento).
+
+PÁGINA FUNDAMENTOS (COM TABULEIRO, SEM MOVIMENTAR)
+- Propósito: treino mental com suporte visual, alinhado ao tema.
+- Comportamento:
+  * O tabuleiro aparece apenas como referência (quadrado, responsivo, com coordenadas).
+  * NÃO permitir movimentar peças.
+  * NÃO exibir botões de feedback.
+- Estrutura mínima por exercício:
+  * Título, Objetivo, Contexto (jogadas anteriores resumidas ou situação), Posição atual (FEN + lado a jogar), Perguntas orientadoras.
+
+PÁGINA CONCEITOS (COM TABULEIRO, COM MOVIMENTAÇÃO)
+- Propósito: aplicar os conceitos do tema na prática, validando lances corretos.
+- Comportamento:
+  * Tabuleiro interativo (clicar/arrastar peças).
+  * Exibir coordenadas (letras e números).
+  * NÃO exibir caminho automático de movimentos ou destaques de casas.
+  * Feedback após jogada:
+    - ERRADO → após 0,5s: “Movimento incorreto, tente novamente”.
+    - CERTO → “Você evoluiu!” + incremento no contador de jogadas corretas.
+  * Sempre exibir botões junto ao feedback:
+    - ✅ “Tentar novamente” → reinicia o exercício.
+    - ❌ “Desistir” → fecha o exercício ou retorna ao menu/nível.
+- Estrutura mínima por exercício:
+  * Título, Objetivo, Contexto (curto, realista), Posição atual (FEN + lado a jogar), Perguntas de análise, Sequência(s) correta(s) esperadas.
+
+CONTEÚDO PADRÃO (AMBAS AS PÁGINAS)
+- Título do exercício.
+- Objetivo (sempre alinhado ao tema).
+- Contexto: 1–2 frases ou lances anteriores resumidos.
+- Posição atual: FEN + “Lado a jogar: Brancas/Pretas”.
+- Perguntas guias (2–3) para orientar o raciocínio.
+- Todas as posições devem ser plausíveis, coerentes com a FEN e jogadas anteriores.
+
+QUALIDADE DAS POSIÇÕES
+- Todas as posições devem vir de partidas reais.
+- Referência mínima: jogadores/ano ou evento.
+- Dificuldade deve respeitar o nível do exercício.
+- Nas páginas de Conceitos, as linhas corretas devem existir na partida ou ser variações plausíveis (validadas por engine).
+
+ETAPA FINAL – REVISÃO/QA
+- Analise o CÓDIGO de ambas as páginas (Fundamentos e Conceitos).
+- Verifique:
+  * Se a quantidade de exercícios foi mantida consistente em cada nível.
+  * Se o tabuleiro aparece abaixo das perguntas em todos os exercícios.
+  * Se os exercícios da página FUNDAMENTOS não permitem movimento e não exibem botões de feedback.
+  * Se os exercícios da página CONCEITOS permitem movimentar e exibem corretamente feedback + botões.
+  * Se as coordenadas aparecem, mas não existem destaques de movimentos ao clicar.
+  * Se todas as FEN são válidas e coerentes com o contexto e lado a jogar.
+- NÃO alterar nada se estiver correto.
+- SOMENTE corrigir caso haja erro objetivo (ex.: FEN inválida, bug de interação, lado a jogar errado).
+- Confirme que a estrutura do site permaneceu organizada e os exercícios estão prontos para lançamento.

@@ -1,0 +1,80 @@
+OBJETIVO GERAL DO CONTEÚDO
+- Tema obrigatório de todos os exercícios: “Desenvolver percepção de padrões, reconhecimento de oportunidades simples e noções básicas de estratégia.”
+- Basear posições em partidas reais (não inventadas). Indicar fonte mínima: nome dos jogadores/ano ou evento + FEN da posição.
+
+REGRAS DE VOLUME POR NÍVEL (NÃO MUDAR VISUAL)
+- Não alterar CSS, HTML, layout, cores, fontes ou componentes já existentes no site.
+- Para cada nível (Iniciante, Intermediário, Avançado, Mestre), adicionar a mesma quantidade de exercícios COM TABULEIRO que já existe de exercícios SEM TABULEIRO nesse nível.
+- Distribuição dos novos exercícios COM TABULEIRO:
+  * Sempre que possível, dividir metade em **FUNDAMENTOS** (tabuleiro sem mover) e metade em **CONCEITOS** (tabuleiro com mover). Se a quantidade for ímpar, priorizar 1 a mais em CONCEITOS.
+- Inserir os novos exercícios preservando o estilo e a hierarquia atuais das páginas/seções.
+
+PADRÃO VISUAL E ORDEM DE EXIBIÇÃO
+- Em todo exercício, primeiro mostrar: título, objetivo, contexto (jogadas anteriores resumidas/ideias), e perguntas.
+- O TABULEIRO deve aparecer ABAIXO dessas informações (sempre depois das perguntas).
+- Tabuleiro quadrado e responsivo, exibindo coordenadas (letras e números). 
+- NÃO mostrar “caminho de peça”, casas destacadas automáticas, setas ou sugestões quando clicar.
+
+TIPOS DE EXERCÍCIO COM TABULEIRO
+
+1) FUNDAMENTOS (COM TABULEIRO, SEM MOVIMENTAR)
+- Propósito: treino mental com suporte visual (tabuleiro), alinhado ao tema (padrões, oportunidades simples, noções básicas).
+- Comportamento:
+  * O tabuleiro é estático (sem arrastar/clicar para mover).
+  * Sem qualquer feedback de “certo/errado”.
+  * Sem botões de “Tentar novamente” ou “Desistir”.
+- Conteúdo mínimo por exercício:
+  * Objetivo específico (ex.: identificar peças vulneráveis, reconhecer alinhamentos, detectar pressão em colunas/diagonais).
+  * Contexto curto (ex.: abertura/situação, quem tem iniciativa).
+  * FEN da posição e indicação de quem joga (Brancas/Pretas).
+  * 1–3 perguntas orientadoras (ex.: “Quais peças ficam sem defesa após …?”, “Qual casa crítica domina o plano?”).
+
+2) CONCEITOS (COM TABULEIRO, COM MOVIMENTAÇÃO)
+- Propósito: aplicar os conceitos do tema movendo as peças para validar a ideia prática.
+- Comportamento:
+  * Permitir clicar/arrastar peças; validar somente a(s) sequência(s) correta(s).
+  * Exibir coordenadas no tabuleiro; NÃO exibir caminho de movimentos/ajudas visuais.
+  * Após cada lance:
+     - Se ERRADO: após 0,5s, mostrar mensagem “Movimento incorreto, tente novamente”.
+     - Se CERTO: mostrar “Você evoluiu!” e incrementar contador de jogadas corretas.
+  * Sempre que surgir a mensagem (certo/errado), exibir também os botões:
+     - ✅ “Tentar novamente” (reinicia o exercício atual).
+     - ❌ “Desistir” (fecha o exercício ou retorna ao menu/nível).
+- Conteúdo mínimo por exercício:
+  * Objetivo específico (ex.: exploração de peça indefesa, tática de cravada simples, invasão na 7ª).
+  * Contexto curto (ex.: jogadas anteriores resumidas, ideia estratégica em jogo).
+  * FEN da posição e indicação clara de quem joga (Brancas/Pretas).
+  * Definir a(s) linha(s) correta(s) esperadas para validação do puzzle (1–3 lances típicos do tema).
+  * Sem promessas irreais (ex.: “mate forçado em todas as variantes”); manter realismo prático.
+
+CONTEÚDO PADRÃO DE CADA EXERCÍCIO (AMBOS OS TIPOS)
+- Título do exercício.
+- Objetivo (alinhado ao tema).
+- Contexto: 1–2 frases (ou 6–10 lances anteriores resumidos, se necessário).
+- Posição atual: FEN + “Lado a jogar: Brancas/Pretas”.
+- Perguntas guias (2–3), focadas no tema.
+- Observação: posições sempre plausíveis e coerentes com a FEN e o histórico.
+
+RESTRIÇÕES IMPORTANTES
+- NÃO alterar o visual existente do site (layout, estilos, componentes).
+- Tabuleiro sempre depois das perguntas.
+- Coordenadas visíveis; sem destaques de movimento, sem setas, sem casas de dica.
+- Nas seções de FUNDAMENTOS: não permitir movimentos, não usar botões de feedback.
+- Nas seções de CONCEITOS: permitir movimentos, aplicar feedback e botões (0,5s de atraso no erro).
+
+QUALIDADE DA FONTE DAS POSIÇÕES
+- Usar partidas reais. Fornecer referência mínima (jogadores/ano ou evento).
+- Adaptar a dificuldade ao nível correspondente, respeitando o tema.
+- As sequências corretas (para CONCEITOS) devem existir na partida ou ser variação plausível validada por engine, sem inconsistências com a FEN.
+
+ETAPA FINAL – REVISÃO/QA (NÃO MODIFICAR NADA A MENOS QUE ESTEJA ERRADO)
+- Analise o CÓDIGO do site e verifique:
+  * Se a nova quantidade de exercícios por nível foi preservada sem quebrar layout.
+  * Se o tabuleiro está posicionado abaixo das perguntas em todos os exercícios.
+  * Se os FUNDAMENTOS realmente não permitem mover peças e não exibem botões/feedback.
+  * Se os CONCEITOS permitem movimento, respeitam as regras de feedback (0,5s no erro) e exibem os botões corretos.
+  * Se coordenadas aparecem e não existem destaques de movimentos ao clicar.
+  * Se não há erros de FEN, lado a jogar, nem inconsistências com o histórico da posição.
+- NÃO altere código/visual/conteúdo se tudo estiver correto. 
+- SOMENTE faça ajustes quando encontrar erro objetivo (ex.: FEN inválida, lado a jogar incorreto, feedback ausente onde é obrigatório, ou bug que impeça usar o exercício).
+- Confirme ao final se o site não ficou bagunçado (estrutura coerente, navegação intacta) e se os exercícios estão corretos e prontos para lançamento.

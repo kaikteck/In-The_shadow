@@ -1,0 +1,96 @@
+Exercícios Táticos Interativos – Progressão de Nível
+Nível Iniciante (1–3)
+
+Objetivo: Desenvolver percepção de padrões, reconhecimento de oportunidades simples e noções básicas de estratégia.
+
+Captura Simples
+
+Objetivo: Reconhecer peças vulneráveis.
+
+Atividade: Coloque 5 peças no tabuleiro e peça para o iniciante identificar todas as peças que podem ser capturadas no próximo lance.
+
+Evolução: Ajuda a desenvolver atenção para oportunidades imediatas.
+
+Movimento Seguro
+
+Objetivo: Aprender a proteger suas peças.
+
+Atividade: Monte posições onde uma peça está em risco e desafie o iniciante a movê-la para um local seguro sem perder material.
+
+Evolução: Desenvolve a noção de defesa e posicionamento.
+
+Reconhecimento de Ataque Duplo
+
+Objetivo: Identificar ameaças múltiplas.
+
+Atividade: Crie uma posição simples onde uma peça pode atacar duas peças adversárias ao mesmo tempo. Pergunte: “Qual é o melhor lance?”
+
+Evolução: Introduz conceitos de ataque duplo, fundamental para enxadristas iniciantes.
+
+Nível Intermediário (4–6)
+
+Objetivo: Desenvolver visão estratégica, cálculo de lances e antecipação do adversário.
+
+Cadeia de Capturas
+
+Objetivo: Planejar sequências de lances.
+
+Atividade: Monte uma posição onde o jogador pode capturar várias peças em sequência. Peça para calcular a melhor sequência.
+
+Evolução: Treina planejamento tático e visão de múltiplos lances.
+
+Tática do Garfo
+
+Objetivo: Identificar garfos e ameaças simultâneas.
+
+Atividade: Crie uma posição com cavalo ou peça menor que possa ameaçar duas peças ao mesmo tempo. O jogador deve encontrar o lance correto.
+
+Evolução: Desenvolve percepção de oportunidades para ganhar material.
+
+Defesa Ativa
+
+Objetivo: Contratacar enquanto protege.
+
+Atividade: Coloque uma peça em risco e peça ao jogador para encontrar um lance que defenda a peça e crie uma ameaça ao adversário.
+
+Evolução: Ensina a combinar defesa e ataque, aumentando a compreensão do tabuleiro.
+
+Nível Avançado (7–9)
+
+Objetivo: Integrar visão tática e estratégica, calculando várias possibilidades e antecipando respostas do adversário.
+
+Sacrifício Planejado
+
+Objetivo: Treinar a tomada de decisão arriscada.
+
+Atividade: Monte uma posição onde sacrificar uma peça leva a vantagem significativa. O jogador deve identificar se vale a pena.
+
+Evolução: Desenvolve cálculo avançado e avaliação de riscos.
+
+Tática de Desvio
+
+Objetivo: Criar desequilíbrio e explorar fraquezas.
+
+Atividade: Monte uma posição onde uma peça adversária precisa ser desviada para ganhar vantagem. O jogador deve encontrar o lance correto.
+
+Evolução: Ensina a manipular a posição do adversário para criar oportunidades.
+
+Ataque Combinado
+
+Objetivo: Planejar múltiplas ameaças ao mesmo tempo.
+
+Atividade: Posicione peças para que o jogador possa criar uma sequência de lances que ameace mate ou ganho de material múltiplo.
+
+Evolução: Desenvolve visão tática integrada, antecipação de respostas e coordenação entre peças.
+
+Nível Mestre (10)
+
+Objetivo: Consolidar todas as habilidades táticas, estratégicas e de cálculo em um exercício desafiador.
+
+Mate em 3/4 Lances com Obstáculos
+
+Objetivo: Combinar cálculo, planejamento e criatividade.
+
+Atividade: Crie uma posição complexa onde o jogador deve dar mate em 3 ou 4 lances, enfrentando peças que defendem parcialmente o rei.
+
+Evolução: Testa percepção, paciência, antecipação e execução de táticas avançadas sob pressão.
